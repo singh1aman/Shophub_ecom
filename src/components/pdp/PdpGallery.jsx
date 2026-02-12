@@ -1,11 +1,19 @@
-const PdpGallery = () => {
+import { Audio,Wearable,Photography,Gaming } from "@/data/data";
+const PdpGallery = ({id}) => {
+  const dataFile = [...Audio,...Gaming,...Photography,...Wearable]; 
+  console.log('id in gallery',id,dataFile);
+  const img = dataFile.find((product) => product.id === +id).image;
+  console.log('img',img);
+  
+
+  
   return (
     <div className="flex flex-col gap-4">
       <div className="aspect-square w-full overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 shadow-sm transition-shadow duration-300 hover:shadow-md">
         <img
-          src="https://placehold.co/800x800/f3f4f6/111827?text=Product+Image"
+          src={img}
           alt="Product"
-          className="h-full w-full object-cover"
+          className="h-full w-full"
         />
       </div>
       <div className="grid grid-cols-4 gap-3">

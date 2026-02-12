@@ -1,7 +1,7 @@
 import { Heart, Star } from "lucide-react";
 import { useCart } from "../../context/CartContext";
 const ProductCard = ({ product, viewMode }) => {
-  console.log("product", product);
+  console.log("product", viewMode);
   const { addToCart } = useCart();
 
   if (viewMode === "list") {
@@ -59,7 +59,13 @@ const ProductCard = ({ product, viewMode }) => {
               <button className="p-2 border border-gray-200 rounded-md hover:bg-gray-50">
                 <Heart className="h-4 w-4" />
               </button>
-              <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-colors">
+              <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"
+                 onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              addToCart(product);
+            }}
+              >
                 Add to Cart
               </button>
             </div>
@@ -93,6 +99,7 @@ const ProductCard = ({ product, viewMode }) => {
         <img
           src={product.image}
           alt={product.name}
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
       </div>

@@ -11,7 +11,7 @@ const Audio = [
     reviews: 856,
     stock: 23,
     badge: "Bestseller",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Headphones"
+    image: "https://as2.ftcdn.net/jpg/13/61/41/47/1000_F_1361414724_w6Ju6qdXK40SyafCFS1cxHG9J1QruoZi.jpg"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const Audio = [
     reviews: 342,
     stock: 15,
     badge: "New",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Speakers"
+    image: "https://images.pexels.com/photos/20802448/pexels-photo-20802448.jpeg?dl=pexels-khang-20802448.jpg&auto=compress&cs=tinysrgb&w=800&fm=webp"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const Audio = [
     reviews: 1523,
     stock: 45,
     badge: "Hot",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Portable+Speaker"
+    image: "https://images.pexels.com/photos/1034652/pexels-photo-1034652.jpeg?dl=pexels-shottrotter-1034652.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const Audio = [
     reviews: 567,
     stock: 28,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=IEMs"
+    image: "https://images.pexels.com/photos/13727225/pexels-photo-13727225.jpeg?dl=pexels-shreyaan-13727225.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 5,
@@ -66,8 +66,8 @@ const Audio = [
     rating: 4.6,
     reviews: 892,
     stock: 31,
-    badge: "Sale",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Microphone"
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/14540991/pexels-photo-14540991.jpeg?dl=pexels-quirva-14540991.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const Audio = [
     reviews: 2341,
     stock: 50,
     badge: "Bestseller",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earbuds"
+    image: "https://images.pexels.com/photos/8470712/pexels-photo-8470712.jpeg?dl=pexels-igorejov-8470712.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ const Audio = [
     reviews: 445,
     stock: 19,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=DJ+Headphones"
+    image: "https://images.pexels.com/photos/3394665/pexels-photo-3394665.jpeg?dl=pexels-sound-on-3394665.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 8,
@@ -109,7 +109,7 @@ const Audio = [
     reviews: 678,
     stock: 22,
     badge: "New",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Soundbar"
+    image: "https://images.pexels.com/photos/6020432/pexels-photo-6020432.jpeg?dl=pexels-yair-elgazar-7861228-6020432.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 9,
@@ -123,7 +123,7 @@ const Audio = [
     reviews: 234,
     stock: 14,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Turntable"
+    image: "https://images.pexels.com/photos/96857/pexels-photo-96857.jpeg?dl=pexels-markusspiske-96857.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 10,
@@ -137,7 +137,7 @@ const Audio = [
     reviews: 456,
     stock: 27,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Audio+Interface"
+    image: "https://images.pexels.com/photos/28758926/pexels-photo-28758926.jpeg?dl=pexels-senna-doe-1782113811-28758926.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 11,
@@ -151,7 +151,7 @@ const Audio = [
     reviews: 1876,
     stock: 38,
     badge: "Hot",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=ANC+Earbuds"
+    image: "https://images.pexels.com/photos/8720826/pexels-photo-8720826.jpeg?dl=pexels-spotwizardlee-35777904-8720826.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 12,
@@ -165,8 +165,242 @@ const Audio = [
     reviews: 389,
     stock: 16,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Bookshelf+Speakers"
-  }
+    image: "https://images.pexels.com/photos/13981276/pexels-photo-13981276.jpeg?dl=pexels-hoanggiahuy-13981276.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 13,
+    name: "Bookshelf Speaker Pair",
+    price: 418.56,
+    category: "Audio",
+    subcategory: "Accessories",
+    description: "Essential add?ons to improve your audio setup and workflow.",
+    rating: 4.6,
+    reviews: 2163,
+    stock: 33,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/8071904/pexels-photo-8071904.jpeg?dl=pexels-tstudio-34805588-8071904.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 14,
+    name: "Carry Case",
+    price: 87.73,
+    category: "Audio",
+    subcategory: "Accessories",
+    description: "Essential add?ons to improve your audio setup and workflow.",
+    rating: 4.2,
+    reviews: 1248,
+    stock: 56,
+    badge: "Hot",
+    image: "https://images.pexels.com/photos/10433473/pexels-photo-10433473.jpeg?dl=pexels-tstudio-34805588-10433473.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 15,
+    name: "Audio Cable Kit",
+    price: 330.57,
+    category: "Audio",
+    subcategory: "Earphones",
+    description: "Lightweight fit with detailed audio and all?day comfort.",
+    rating: 4.7,
+    reviews: 1886,
+    stock: 74,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/8858287/pexels-photo-8858287.jpeg?dl=pexels-spotwizardlee-35777904-8858287.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 16,
+    name: "Hi?Res Earphones",
+    price: 362.63,
+    category: "Audio",
+    subcategory: "Speakers",
+    description: "Room?filling sound with clean mids and deep bass in a compact footprint.",
+    rating: 4.9,
+    reviews: 2050,
+    stock: 44,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/1034653/pexels-photo-1034653.jpeg?dl=pexels-shottrotter-1034653.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 17,
+    name: "Portable Bluetooth Speaker",
+    price: 270.92,
+    category: "Audio",
+    subcategory: "Accessories",
+    description: "Essential add?ons to improve your audio setup and workflow.",
+    rating: 4.7,
+    reviews: 818,
+    stock: 58,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/7063530/pexels-photo-7063530.jpeg?dl=pexels-nihongraphy-2-22469233-7063530.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 18,
+    name: "Pop Filter",
+    price: 138.57,
+    category: "Audio",
+    subcategory: "Players",
+    description: "High?fidelity playback with modern connectivity and easy controls.",
+    rating: 4.6,
+    reviews: 1375,
+    stock: 14,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/7586689/pexels-photo-7586689.jpeg?dl=pexels-cristian-rojas-7586689.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 19,
+    name: "Digital Audio Player",
+    price: 235.45,
+    category: "Audio",
+    subcategory: "Headphones",
+    description: "Comfortable over?ear design with rich, balanced sound for long sessions.",
+    rating: 4.3,
+    reviews: 1725,
+    stock: 70,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/3394652/pexels-photo-3394652.jpeg?dl=pexels-sound-on-3394652.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 20,
+    name: "DJ Monitoring Headphones",
+    price: 156.98,
+    category: "Audio",
+    subcategory: "Speakers",
+    description: "Room?filling sound with clean mids and deep bass in a compact footprint.",
+    rating: 4.7,
+    reviews: 2421,
+    stock: 58,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/20802446/pexels-photo-20802446.jpeg?dl=pexels-khang-20802446.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 21,
+    name: "Compact Desktop Speakers",
+    price: 374.73,
+    category: "Audio",
+    subcategory: "Players",
+    description: "High?fidelity playback with modern connectivity and easy controls.",
+    rating: 4.8,
+    reviews: 2088,
+    stock: 45,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/10676939/pexels-photo-10676939.jpeg?dl=pexels-ron-lach-10676939.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 22,
+    name: "Vinyl Record Player",
+    price: 204.72,
+    category: "Audio",
+    subcategory: "Earphones",
+    description: "Lightweight fit with detailed audio and all?day comfort.",
+    rating: 4.8,
+    reviews: 1262,
+    stock: 16,
+    badge: null,
+    image: "https://cdn.pixabay.com/photo/2016/11/23/00/58/record-player-1851576_1280.jpg"
+  },
+  {
+    id: 23,
+    name: "Noise Cancelling Earbuds",
+    price: 234.76,
+    category: "Audio",
+    subcategory: "Players",
+    description: "High?fidelity playback with modern connectivity and easy controls.",
+    rating: 4.7,
+    reviews: 884,
+    stock: 11,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/7417547/pexels-photo-7417547.jpeg?dl=pexels-lorenciusls-7417547.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 24,
+    name: "Portable Music Player",
+    price: 263.42,
+    category: "Audio",
+    subcategory: "Players",
+    description: "High?fidelity playback with modern connectivity and easy controls.",
+    rating: 4.8,
+    reviews: 1456,
+    stock: 13,
+    badge: "Bestseller",
+    image: "https://cdn.pixabay.com/photo/2016/11/23/00/58/record-player-1851576_1280.jpg"
+  },
+  {
+    id: 25,
+    name: "Hi?Res Audio Player",
+    price: 470.15,
+    category: "Audio",
+    subcategory: "Headphones",
+    description: "Comfortable over?ear design with rich, balanced sound for long sessions.",
+    rating: 4.4,
+    reviews: 996,
+    stock: 14,
+    badge: null,
+    image: "https://cdn.pixabay.com/photo/2015/02/18/19/12/mp3-player-641183_1280.jpg"
+  },
+  {
+    id: 26,
+    name: "Studio Wireless Headphones",
+    price: 174.59,
+    category: "Audio",
+    subcategory: "Speakers",
+    description: "Room?filling sound with clean mids and deep bass in a compact footprint.",
+    rating: 4.6,
+    reviews: 2040,
+    stock: 40,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/7054538/pexels-photo-7054538.jpeg?dl=pexels-kindelmedia-7054538.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 27,
+    name: "Home Theater Soundbar",
+    price: 65.24,
+    category: "Audio",
+    subcategory: "Accessories",
+    description: "Essential add?ons to improve your audio setup and workflow.",
+    rating: 4.4,
+    reviews: 2029,
+    stock: 63,
+    badge: "Hot",
+    image: "https://unsplash.com/photos/dp8gcNCMGO8/download?force=true"
+  },
+  {
+    id: 28,
+    name: "Headphone Stand",
+    price: 63.55,
+    category: "Audio",
+    subcategory: "Headphones",
+    description: "Comfortable over?ear design with rich, balanced sound for long sessions.",
+    rating: 4.6,
+    reviews: 780,
+    stock: 25,
+    badge: "New",
+    image: "https://images.pexels.com/photos/10433473/pexels-photo-10433473.jpeg?dl=pexels-tstudio-34805588-10433473.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 29,
+    name: "Noise Cancelling Headphones",
+    price: 296.12,
+    category: "Audio",
+    subcategory: "Earphones",
+    description: "Lightweight fit with detailed audio and all?day comfort.",
+    rating: 4.4,
+    reviews: 2097,
+    stock: 12,
+    badge: null,
+    image: "https://images.pexels.com/photos/7054538/pexels-photo-7054538.jpeg?dl=pexels-kindelmedia-7054538.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 30,
+    name: "True Wireless Earbuds",
+    price: 324.23,
+    category: "Audio",
+    subcategory: "Microphones",
+    description: "Clear voice capture with low noise for streaming and recording.",
+    rating: 4.3,
+    reviews: 2407,
+    stock: 29,
+    badge: null,
+    image: "https://images.pexels.com/photos/30608591/pexels-photo-30608591.jpeg?dl=pexels-regeci-30608591.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
 ];
 const Gaming = [
   {
@@ -181,7 +415,7 @@ const Gaming = [
     reviews: 1243,
     stock: 34,
     badge: "Bestseller",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Keyboard"
+    image: "https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 102,
@@ -195,7 +429,7 @@ const Gaming = [
     reviews: 2876,
     stock: 58,
     badge: "Hot",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Gaming+Mouse"
+    image: "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 103,
@@ -209,7 +443,7 @@ const Gaming = [
     reviews: 932,
     stock: 41,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Gaming+Headset"
+    image: "https://images.pexels.com/photos/16168353/pexels-photo-16168353.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 104,
@@ -223,7 +457,7 @@ const Gaming = [
     reviews: 2104,
     stock: 76,
     badge: "Onsale",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Mousepad"
+    image: "https://images.pexels.com/photos/612053/pexels-photo-612053.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 105,
@@ -237,7 +471,7 @@ const Gaming = [
     reviews: 654,
     stock: 29,
     badge: "New",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Controller"
+    image: "https://images.pexels.com/photos/159204/game-controller-pad-xbox-159204.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 106,
@@ -251,7 +485,7 @@ const Gaming = [
     reviews: 1189,
     stock: 12,
     badge: "Bestseller",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Monitor"
+    image: "https://unsplash.com/photos/qI1eL5b6lac/download?force=true"
   },
   {
     id: 107,
@@ -265,7 +499,7 @@ const Gaming = [
     reviews: 845,
     stock: 21,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Gaming+Chair"
+    image: "https://images.pexels.com/photos/7862645/pexels-photo-7862645.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 108,
@@ -279,7 +513,7 @@ const Gaming = [
     reviews: 1502,
     stock: 47,
     badge: "Hot",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Webcam"
+    image: "https://images.pexels.com/photos/12911737/pexels-photo-12911737.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 109,
@@ -293,7 +527,7 @@ const Gaming = [
     reviews: 388,
     stock: 18,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Capture+Card"
+    image: "https://cdn.pixabay.com/photo/2015/03/28/16/24/usb-695116_1280.jpg"
   },
   {
     id: 110,
@@ -307,7 +541,7 @@ const Gaming = [
     reviews: 512,
     stock: 25,
     badge: "New",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Gaming+Router"
+    image: "https://unsplash.com/photos/uWaRsN-CqY0/download?force=true"
   },
   {
     id: 111,
@@ -321,7 +555,7 @@ const Gaming = [
     reviews: 703,
     stock: 33,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=PC+Case"
+    image: "https://images.pexels.com/photos/15685975/pexels-photo-15685975.jpeg?dl=pexels-fox-58267-15685975.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
   },
   {
     id: 112,
@@ -335,18 +569,252 @@ const Gaming = [
     reviews: 2675,
     stock: 44,
     badge: "Bestseller",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=SSD"
-  }
+    image: "https://images.pexels.com/photos/28666524/pexels-photo-28666524.jpeg?dl=pexels-zeleboba-28666524.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 113,
+    name: "Low?Ping Router",
+    price: 445.32,
+    category: "Gaming",
+    subcategory: "Controllers",
+    description: "Low?latency controls with responsive buttons for competitive play.",
+    rating: 4.2,
+    reviews: 317,
+    stock: 42,
+    badge: "New",
+    image: "https://unsplash.com/photos/43ak6tfF4Ss/download?force=true"
+  },
+  {
+    id: 114,
+    name: "Tournament Controller",
+    price: 304.32,
+    category: "Gaming",
+    subcategory: "Headsets",
+    description: "Immersive soundstage with a clear, noise?reducing microphone.",
+    rating: 4.9,
+    reviews: 310,
+    stock: 64,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/159204/game-controller-joystick-joypad-gamepad-159204.jpeg?dl=pexels-pixabay-159204.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 115,
+    name: "Surround Gaming Headset",
+    price: 291.93,
+    category: "Gaming",
+    subcategory: "Headsets",
+    description: "Immersive soundstage with a clear, noise?reducing microphone.",
+    rating: 4.5,
+    reviews: 1389,
+    stock: 58,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/32755791/pexels-photo-32755791.jpeg?dl=pexels-bertellifotografia-32755791.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 116,
+    name: "Wireless Gaming Headset",
+    price: 199.3,
+    category: "Gaming",
+    subcategory: "Accessories",
+    description: "Essential add?ons to upgrade comfort, capture, and setup quality.",
+    rating: 4.1,
+    reviews: 502,
+    stock: 69,
+    badge: "New",
+    image: "https://images.pexels.com/photos/28993055/pexels-photo-28993055.jpeg?dl=pexels-bertellifotografia-28993055.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 117,
+    name: "Gaming Chair",
+    price: 334.14,
+    category: "Gaming",
+    subcategory: "Accessories",
+    description: "Essential add?ons to upgrade comfort, capture, and setup quality.",
+    rating: 4.9,
+    reviews: 1399,
+    stock: 61,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/7862645/pexels-photo-7862645.jpeg?dl=pexels-a-darmel-7862645.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 118,
+    name: "Streaming Webcam",
+    price: 316.33,
+    category: "Gaming",
+    subcategory: "Controllers",
+    description: "Low?latency controls with responsive buttons for competitive play.",
+    rating: 4.1,
+    reviews: 2223,
+    stock: 49,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/10864867/pexels-photo-10864867.jpeg?dl=pexels-ewei2805-10864867.jpg&fm=jpg&auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    id: 119,
+    name: "Ergo Grip Gamepad",
+    price: 423.51,
+    category: "Gaming",
+    subcategory: "Accessories",
+    description: "Essential add?ons to upgrade comfort, capture, and setup quality.",
+    rating: 4.8,
+    reviews: 1110,
+    stock: 28,
+    badge: "Bestseller",
+    image: "https://unsplash.com/photos/PWOi85KoDE8/download?force=true"
+  },
+  {
+    id: 120,
+    name: "RGB Mousepad",
+    price: 177.38,
+    category: "Gaming",
+    subcategory: "Accessories",
+    description: "Essential add?ons to upgrade comfort, capture, and setup quality.",
+    rating: 4.6,
+    reviews: 2127,
+    stock: 53,
+    badge: null,
+    image: "https://cdn.pixabay.com/photo/2021/04/07/16/13/gaming-mouse-6159550_1280.jpg"
+  },
+  {
+    id: 121,
+    name: "Capture Card",
+    price: 468.18,
+    category: "Gaming",
+    subcategory: "Headsets",
+    description: "Immersive soundstage with a clear, noise?reducing microphone.",
+    rating: 4.8,
+    reviews: 256,
+    stock: 34,
+    badge: null,
+    image: "https://cdn.pixabay.com/photo/2016/08/21/22/42/usb-plug-1610989_1280.jpg"
+  },
+  {
+    id: 122,
+    name: "Pro Esports Headset",
+    price: 489.77,
+    category: "Gaming",
+    subcategory: "Accessories",
+    description: "Essential add?ons to upgrade comfort, capture, and setup quality.",
+    rating: 4.8,
+    reviews: 1114,
+    stock: 79,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/32755791/pexels-photo-32755791.jpeg?cs=srgb&dl=pexels-bertellifotografia-32755791.jpg&fm=jpg"
+  },
+  {
+    id: 123,
+    name: "RGB Mousepad",
+    price: 140.54,
+    category: "Gaming",
+    subcategory: "Headsets",
+    description: "Immersive soundstage with a clear, noise?reducing microphone.",
+    rating: 4.8,
+    reviews: 174,
+    stock: 37,
+    badge: null,
+    image: "https://images.pexels.com/photos/28779690/pexels-photo-28779690.jpeg?cs=srgb&dl=pexels-atahandemir-28779690.jpg&fm=jpg"
+  },
+  {
+    id: 124,
+    name: "Studio?Tuned Headset",
+    price: 373.9,
+    category: "Gaming",
+    subcategory: "Accessories",
+    description: "Essential add?ons to upgrade comfort, capture, and setup quality.",
+    rating: 4.1,
+    reviews: 2270,
+    stock: 64,
+    badge: "Bestseller",
+    image: "https://images.pexels.com/photos/18441496/pexels-photo-18441496.jpeg?cs=srgb&dl=pexels-soginoto-495844134-18441496.jpg&fm=jpg"
+  },
+  {
+    id: 125,
+    name: "RGB Mousepad",
+    price: 154.49,
+    category: "Gaming",
+    subcategory: "Keyboards & Mice",
+    description: "Fast, accurate input with durable switches and lightweight design.",
+    rating: 4.1,
+    reviews: 660,
+    stock: 71,
+    badge: null,
+    image: "https://images.pexels.com/photos/28779688/pexels-photo-28779688.jpeg?cs=srgb&dl=pexels-atahandemir-28779688.jpg&fm=jpg"
+  },
+  {
+    id: 126,
+    name: "Ultra?Light Gaming Mouse",
+    price: 51.81,
+    category: "Gaming",
+    subcategory: "Monitors",
+    description: "High?refresh, low?latency visuals for smooth competitive gaming.",
+    rating: 4.8,
+    reviews: 836,
+    stock: 80,
+    badge: null,
+    image: "https://images.pexels.com/photos/28779688/pexels-photo-28779688.jpeg?cs=srgb&dl=pexels-atahandemir-28779688.jpg&fm=jpg"
+  },
+  {
+    id: 127,
+    name: "Ultra?Wide Gaming Display",
+    price: 337.67,
+    category: "Gaming",
+    subcategory: "Headsets",
+    description: "Immersive soundstage with a clear, noise?reducing microphone.",
+    rating: 4.7,
+    reviews: 2445,
+    stock: 50,
+    badge: "New",
+    image: "https://unsplash.com/photos/zSyJcyPwBsY/download?force=true"
+  },
+  {
+    id: 128,
+    name: "Noise?Isolating Headset",
+    price: 89.35,
+    category: "Gaming",
+    subcategory: "Headsets",
+    description: "Immersive soundstage with a clear, noise?reducing microphone.",
+    rating: 4.5,
+    reviews: 2168,
+    stock: 31,
+    badge: "Hot",
+    image: "https://images.pexels.com/photos/5249311/pexels-photo-5249311.jpeg?cs=srgb&dl=pexels-jacobyclarkephoto-5249311.jpg&fm=jpg"
+  },
+  {
+    id: 129,
+    name: "Surround Gaming Headset",
+    price: 72.62,
+    category: "Gaming",
+    subcategory: "Monitors",
+    description: "High?refresh, low?latency visuals for smooth competitive gaming.",
+    rating: 4.6,
+    reviews: 2391,
+    stock: 65,
+    badge: "Onsale",
+    image: "https://images.pexels.com/photos/32755792/pexels-photo-32755792.jpeg?cs=srgb&dl=pexels-bertellifotografia-32755792.jpg&fm=jpg"
+  },
+  {
+    id: 130,
+    name: "144Hz Gaming Monitor",
+    price: 103.91,
+    category: "Gaming",
+    subcategory: "Keyboards & Mice",
+    description: "Fast, accurate input with durable switches and lightweight design.",
+    rating: 4.7,
+    reviews: 1995,
+    stock: 64,
+    badge: "Hot",
+    image: "https://unsplash.com/photos/iSE7Lozrrx4/download?force=true"
+  },
 ];
 const Wearable = [
   {
     id: 201,
     qty: 1,
-    name: "Smart Fitness Watch Pro",
+    name: "PulseTrack Smartwatch",
     price: 199.99,
     category: "Wearable",
     subcategory: "Smartwatches",
-    description: "Advanced fitness tracking with heart rate, SpO2 and GPS.",
+    description: "Advanced fitness watch with GPS, heart rate, and 14?day battery.",
     rating: 4.7,
     reviews: 1845,
     stock: 42,
@@ -356,39 +824,39 @@ const Wearable = [
   {
     id: 202,
     qty: 1,
-    name: "AMOLED Smart Band X",
+    name: "AuraFit AMOLED Band",
     price: 59.99,
     category: "Wearable",
     subcategory: "Fitness Bands",
-    description: "Slim fitness band with AMOLED display and 14-day battery life.",
+    description: "Slim AMOLED fitness band with sleep tracking and 10?day battery.",
     rating: 4.5,
     reviews: 3267,
     stock: 65,
     badge: "Hot",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smart+Band"
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Fitness+Band"
   },
   {
     id: 203,
     qty: 1,
-    name: "Wireless Sports Earbuds Fit",
+    name: "MotionBeat Sport Earwear",
     price: 89.99,
     category: "Wearable",
     subcategory: "Earwear",
-    description: "Secure-fit workout earbuds with sweat resistance and deep bass.",
+    description: "Secure-fit workout earwear with sweat resistance and deep bass.",
     rating: 4.6,
     reviews: 972,
     stock: 37,
     badge: null,
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Sports+Earbuds"
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Sport+Earwear"
   },
   {
     id: 204,
     qty: 1,
-    name: "Smart Glasses Lite",
+    name: "VisionLite Smart Glasses",
     price: 249.99,
     category: "Wearable",
-    subcategory: "Smart Glasses",
-    description: "Open-ear audio glasses with touch controls and voice assistant.",
+    subcategory: "Accessories",
+    description: "Open-ear smart glasses with touch controls and voice assistant.",
     rating: 4.3,
     reviews: 214,
     stock: 18,
@@ -398,11 +866,11 @@ const Wearable = [
   {
     id: 205,
     qty: 1,
-    name: "Health Tracker Ring",
+    name: "CoreSense Smart Ring",
     price: 179.99,
     category: "Wearable",
     subcategory: "Smart Rings",
-    description: "Lightweight smart ring for sleep, activity and recovery tracking.",
+    description: "Lightweight ring for sleep, recovery, and activity insights.",
     rating: 4.4,
     reviews: 488,
     stock: 29,
@@ -412,21 +880,21 @@ const Wearable = [
   {
     id: 206,
     qty: 1,
-    name: "Kids GPS Smartwatch",
+    name: "KidsGuard GPS Watch",
     price: 79.99,
     category: "Wearable",
     subcategory: "Smartwatches",
-    description: "Water-resistant kids smartwatch with GPS and SOS calling.",
+    description: "Water?resistant kids watch with GPS tracking and SOS calling.",
     rating: 4.2,
     reviews: 1335,
     stock: 54,
-    badge: "Sale",
+    badge: "Onsale",
     image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Kids+Watch"
   },
   {
     id: 207,
     qty: 1,
-    name: "Premium Leather Watch Strap",
+    name: "Premium Watch Strap",
     price: 29.99,
     category: "Wearable",
     subcategory: "Accessories",
@@ -440,23 +908,309 @@ const Wearable = [
   {
     id: 208,
     qty: 1,
-    name: "AR Fitness Training Glasses",
+    name: "AR Trainer Glasses",
     price: 299.99,
     category: "Wearable",
-    subcategory: "Smart Glasses",
-    description: "Augmented reality glasses with real-time workout coaching.",
+    subcategory: "Accessories",
+    description: "AR training glasses with real?time workout coaching overlays.",
     rating: 4.1,
     reviews: 96,
     stock: 11,
     badge: "New",
     image: "https://placehold.co/400x400/f3f4f6/1f2937?text=AR+Glasses"
-  }
+  },
+  {
+    id: 209,
+    name: "Replacement Bands",
+    price: 451.59,
+    category: "Wearable",
+    subcategory: "Smart Rings",
+    description: "Discreet tracking for sleep, recovery, and wellness metrics.",
+    rating: 4.5,
+    reviews: 2377,
+    stock: 28,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smart+Rings"
+  },
+  {
+    id: 210,
+    name: "Stress Tracking Ring",
+    price: 63.48,
+    category: "Wearable",
+    subcategory: "Accessories",
+    description: "Essential add?ons to enhance comfort and charging convenience.",
+    rating: 4.9,
+    reviews: 1708,
+    stock: 36,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Accessories"
+  },
+  {
+    id: 211,
+    name: "Watch Strap",
+    price: 76.16,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.7,
+    reviews: 994,
+    stock: 27,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 212,
+    name: "Pro Health Smartwatch",
+    price: 404.46,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.8,
+    reviews: 415,
+    stock: 61,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 213,
+    name: "GPS Smartwatch",
+    price: 497.6,
+    category: "Wearable",
+    subcategory: "Earwear",
+    description: "Secure fit with clear audio for workouts and all?day comfort.",
+    rating: 4.6,
+    reviews: 450,
+    stock: 79,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earwear"
+  },
+  {
+    id: 214,
+    name: "Open?Ear Earwear",
+    price: 126.86,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.3,
+    reviews: 1598,
+    stock: 56,
+    badge: "New",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 215,
+    name: "AMOLED Smartwatch",
+    price: 391.41,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.6,
+    reviews: 1569,
+    stock: 74,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 216,
+    name: "Fitness Smartwatch",
+    price: 239.87,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.8,
+    reviews: 1225,
+    stock: 21,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 217,
+    name: "Everyday Smartwatch",
+    price: 332.38,
+    category: "Wearable",
+    subcategory: "Accessories",
+    description: "Essential add?ons to enhance comfort and charging convenience.",
+    rating: 4.7,
+    reviews: 2364,
+    stock: 67,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Accessories"
+  },
+  {
+    id: 218,
+    name: "Travel Charger",
+    price: 110.27,
+    category: "Wearable",
+    subcategory: "Earwear",
+    description: "Secure fit with clear audio for workouts and all?day comfort.",
+    rating: 4.8,
+    reviews: 695,
+    stock: 58,
+    badge: "New",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earwear"
+  },
+  {
+    id: 219,
+    name: "Compact Earwear",
+    price: 256.84,
+    category: "Wearable",
+    subcategory: "Earwear",
+    description: "Secure fit with clear audio for workouts and all?day comfort.",
+    rating: 4.8,
+    reviews: 1077,
+    stock: 18,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earwear"
+  },
+  {
+    id: 220,
+    name: "Sweat?Resistant Earwear",
+    price: 286.38,
+    category: "Wearable",
+    subcategory: "Earwear",
+    description: "Secure fit with clear audio for workouts and all?day comfort.",
+    rating: 4.6,
+    reviews: 149,
+    stock: 32,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earwear"
+  },
+  {
+    id: 221,
+    name: "Workout Earwear",
+    price: 272.32,
+    category: "Wearable",
+    subcategory: "Fitness Bands",
+    description: "Lightweight band with activity tracking and long?lasting battery life.",
+    rating: 4.8,
+    reviews: 974,
+    stock: 26,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Fitness+Bands"
+  },
+  {
+    id: 222,
+    name: "Sleep Tracker Band",
+    price: 196.98,
+    category: "Wearable",
+    subcategory: "Smart Rings",
+    description: "Discreet tracking for sleep, recovery, and wellness metrics.",
+    rating: 4.7,
+    reviews: 2204,
+    stock: 77,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smart+Rings"
+  },
+  {
+    id: 223,
+    name: "Health Ring",
+    price: 388.3,
+    category: "Wearable",
+    subcategory: "Fitness Bands",
+    description: "Lightweight band with activity tracking and long?lasting battery life.",
+    rating: 4.9,
+    reviews: 311,
+    stock: 23,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Fitness+Bands"
+  },
+  {
+    id: 224,
+    name: "Activity Band",
+    price: 282.54,
+    category: "Wearable",
+    subcategory: "Earwear",
+    description: "Secure fit with clear audio for workouts and all?day comfort.",
+    rating: 4.7,
+    reviews: 1042,
+    stock: 73,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earwear"
+  },
+  {
+    id: 225,
+    name: "Wireless Sport Earwear",
+    price: 92.3,
+    category: "Wearable",
+    subcategory: "Accessories",
+    description: "Essential add?ons to enhance comfort and charging convenience.",
+    rating: 4.8,
+    reviews: 2221,
+    stock: 48,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Accessories"
+  },
+  {
+    id: 226,
+    name: "Protective Case",
+    price: 244.21,
+    category: "Wearable",
+    subcategory: "Smart Rings",
+    description: "Discreet tracking for sleep, recovery, and wellness metrics.",
+    rating: 4.9,
+    reviews: 420,
+    stock: 37,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smart+Rings"
+  },
+  {
+    id: 227,
+    name: "Lightweight Smart Ring",
+    price: 223.96,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.8,
+    reviews: 2119,
+    stock: 44,
+    badge: "New",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 228,
+    name: "Fitness Smartwatch",
+    price: 442.17,
+    category: "Wearable",
+    subcategory: "Earwear",
+    description: "Secure fit with clear audio for workouts and all?day comfort.",
+    rating: 4.8,
+    reviews: 522,
+    stock: 30,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Earwear"
+  },
+  {
+    id: 229,
+    name: "Compact Earwear",
+    price: 325.08,
+    category: "Wearable",
+    subcategory: "Smartwatches",
+    description: "Daily fitness insights with GPS, heart?rate monitoring, and smart alerts.",
+    rating: 4.7,
+    reviews: 849,
+    stock: 13,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smartwatches"
+  },
+  {
+    id: 230,
+    name: "GPS Smartwatch",
+    price: 474.84,
+    category: "Wearable",
+    subcategory: "Smart Rings",
+    description: "Discreet tracking for sleep, recovery, and wellness metrics.",
+    rating: 4.2,
+    reviews: 1912,
+    stock: 80,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Smart+Rings"
+  },
 ];
 const Photography = [
   {
     id: 301,
     qty: 1,
-    name: "Mirrorless Camera 24MP",
+    name: "ApertureX Mirrorless 24MP",
     price: 899.99,
     category: "Photography",
     subcategory: "Cameras",
@@ -470,11 +1224,11 @@ const Photography = [
   {
     id: 302,
     qty: 1,
-    name: "Professional Tripod Stand",
+    name: "StabilityPro Tripod",
     price: 129.99,
     category: "Photography",
     subcategory: "Tripods",
-    description: "Lightweight aluminum tripod with fluid head and quick release.",
+    description: "Lightweight tripod with fluid head and quick?release plate.",
     rating: 4.7,
     reviews: 1542,
     stock: 36,
@@ -484,7 +1238,7 @@ const Photography = [
   {
     id: 303,
     qty: 1,
-    name: "50mm Prime Lens f/1.8",
+    name: "PrimeLens 50mm f/1.8",
     price: 199.99,
     category: "Photography",
     subcategory: "Lenses",
@@ -493,29 +1247,29 @@ const Photography = [
     reviews: 2310,
     stock: 27,
     badge: "Hot",
-    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=50mm+Lens"
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lens"
   },
   {
     id: 304,
     qty: 1,
-    name: "Portable LED Light Panel",
+    name: "GlowPanel LED Light",
     price: 89.99,
     category: "Photography",
     subcategory: "Lighting",
-    description: "Bi-color LED panel with adjustable brightness for photo and video.",
+    description: "Bi?color LED panel with adjustable brightness for photo and video.",
     rating: 4.5,
     reviews: 768,
     stock: 49,
-    badge: "Sale",
+    badge: "Onsale",
     image: "https://placehold.co/400x400/f3f4f6/1f2937?text=LED+Light"
   },
   {
     id: 305,
     qty: 1,
-    name: "Camera Backpack Waterproof",
+    name: "FieldPack Camera Bag",
     price: 109.99,
     category: "Photography",
-    subcategory: "Bags",
+    subcategory: "Accessories",
     description: "Padded waterproof backpack for camera, lenses and accessories.",
     rating: 4.6,
     reviews: 1124,
@@ -526,11 +1280,11 @@ const Photography = [
   {
     id: 306,
     qty: 1,
-    name: "Wireless Lavalier Microphone",
+    name: "ClipPro Wireless Mic",
     price: 149.99,
     category: "Photography",
-    subcategory: "Audio",
-    description: "Clip-on wireless mic system for vlogging and interviews.",
+    subcategory: "Accessories",
+    description: "Clip?on wireless mic system for vlogging and interviews.",
     rating: 4.4,
     reviews: 502,
     stock: 21,
@@ -540,11 +1294,11 @@ const Photography = [
   {
     id: 307,
     qty: 1,
-    name: "Drone 4K Camera Pro",
+    name: "SkyScout 4K Drone",
     price: 699.99,
     category: "Photography",
-    subcategory: "Drones",
-    description: "Foldable drone with stabilized 4K camera and 30-min flight time.",
+    subcategory: "Accessories",
+    description: "Foldable drone with stabilized 4K camera and 30?min flight time.",
     rating: 4.7,
     reviews: 389,
     stock: 13,
@@ -554,17 +1308,303 @@ const Photography = [
   {
     id: 308,
     qty: 1,
-    name: "External SSD 2TB USB-C",
+    name: "RapidSSD 2TB USB?C",
     price: 219.99,
     category: "Photography",
-    subcategory: "Storage",
-    description: "High-speed portable SSD for storing and editing large RAW files.",
+    subcategory: "Accessories",
+    description: "High?speed portable SSD for storing and editing large RAW files.",
     rating: 4.8,
     reviews: 1456,
     stock: 44,
     badge: "Bestseller",
     image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Portable+SSD"
-  }
+  },
+  {
+    id: 309,
+    name: "Charging Dock",
+    price: 326.31,
+    category: "Photography",
+    subcategory: "Accessories",
+    description: "Essential add?ons to enhance comfort and charging convenience.",
+    rating: 4.8,
+    reviews: 2288,
+    stock: 46,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Accessories"
+  },
+  {
+    id: 310,
+    name: "Charging Dock",
+    price: 62.12,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.2,
+    reviews: 335,
+    stock: 77,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 311,
+    name: "Hybrid Photo Camera",
+    price: 264.62,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.8,
+    reviews: 1873,
+    stock: 80,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 312,
+    name: "Compact 4K Camera",
+    price: 248.5,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.1,
+    reviews: 2426,
+    stock: 70,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 313,
+    name: "Travel Camera",
+    price: 479.77,
+    category: "Photography",
+    subcategory: "Lenses",
+    description: "Sharp optics with smooth bokeh and excellent low?light performance.",
+    rating: 4.3,
+    reviews: 1836,
+    stock: 18,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lenses"
+  },
+  {
+    id: 314,
+    name: "Wide?Angle Lens",
+    price: 80.71,
+    category: "Photography",
+    subcategory: "Lenses",
+    description: "Sharp optics with smooth bokeh and excellent low?light performance.",
+    rating: 4.5,
+    reviews: 737,
+    stock: 53,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lenses"
+  },
+  {
+    id: 315,
+    name: "Prime Lens 50mm",
+    price: 342.19,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.9,
+    reviews: 219,
+    stock: 38,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 316,
+    name: "Mirrorless Camera",
+    price: 288.82,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.4,
+    reviews: 1145,
+    stock: 19,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 317,
+    name: "Creator Camera",
+    price: 341.84,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.8,
+    reviews: 1676,
+    stock: 36,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 318,
+    name: "Compact 4K Camera",
+    price: 377.82,
+    category: "Photography",
+    subcategory: "Tripods",
+    description: "Stable support with quick?release design and travel?friendly size.",
+    rating: 4.8,
+    reviews: 259,
+    stock: 44,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Tripods"
+  },
+  {
+    id: 319,
+    name: "Aluminum Tripod",
+    price: 187.79,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "Crisp photo and video capture with fast autofocus and rich detail.",
+    rating: 4.5,
+    reviews: 338,
+    stock: 64,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Cameras"
+  },
+  {
+    id: 320,
+    name: "Compact 4K Camera",
+    price: 188.77,
+    category: "Photography",
+    subcategory: "Lenses",
+    description: "Sharp optics with smooth bokeh and excellent low?light performance.",
+    rating: 4.4,
+    reviews: 1171,
+    stock: 77,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lenses"
+  },
+  {
+    id: 321,
+    name: "Portrait Lens",
+    price: 362.77,
+    category: "Photography",
+    subcategory: "Lighting",
+    description: "Soft, adjustable light for photo and video setups.",
+    rating: 4.7,
+    reviews: 2286,
+    stock: 18,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lighting"
+  },
+  {
+    id: 322,
+    name: "Mini Light Kit",
+    price: 194.14,
+    category: "Photography",
+    subcategory: "Lighting",
+    description: "Soft, adjustable light for photo and video setups.",
+    rating: 4.3,
+    reviews: 1795,
+    stock: 49,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lighting"
+  },
+  {
+    id: 323,
+    name: "Softbox Light",
+    price: 184.38,
+    category: "Photography",
+    subcategory: "Tripods",
+    description: "Stable support with quick?release design and travel?friendly size.",
+    rating: 4.9,
+    reviews: 177,
+    stock: 48,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Tripods"
+  },
+  {
+    id: 324,
+    name: "Travel Tripod",
+    price: 497.74,
+    category: "Photography",
+    subcategory: "Accessories",
+    description: "Essential add?ons to enhance comfort and charging convenience.",
+    rating: 4.6,
+    reviews: 1809,
+    stock: 71,
+    badge: "Hot",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Accessories"
+  },
+  {
+    id: 325,
+    name: "Charging Dock",
+    price: 276.09,
+    category: "Photography",
+    subcategory: "Lighting",
+    description: "Soft, adjustable light for photo and video setups.",
+    rating: 4.1,
+    reviews: 2402,
+    stock: 41,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lighting"
+  },
+  {
+    id: 326,
+    name: "Portable Light",
+    price: 244.38,
+    category: "Photography",
+    subcategory: "Tripods",
+    description: "Stable support with quick?release design and travel?friendly size.",
+    rating: 4.6,
+    reviews: 669,
+    stock: 77,
+    badge: null,
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Tripods"
+  },
+  {
+    id: 327,
+    name: "Carbon Fiber Tripod",
+    price: 150.97,
+    category: "Photography",
+    subcategory: "Lighting",
+    description: "Soft, adjustable light for photo and video setups.",
+    rating: 4.4,
+    reviews: 1605,
+    stock: 63,
+    badge: "New",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Lighting"
+  },
+  {
+    id: 328,
+    name: "LED Light Panel",
+    price: 234.68,
+    category: "Photography",
+    subcategory: "Tripods",
+    description: "Stable support with quick?release design and travel?friendly size.",
+    rating: 4.6,
+    reviews: 966,
+    stock: 79,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Tripods"
+  },
+  {
+    id: 329,
+    name: "Fluid?Head Tripod",
+    price: 80.94,
+    category: "Photography",
+    subcategory: "Accessories",
+    description: "Essential add?ons to enhance comfort and charging convenience.",
+    rating: 4.6,
+    reviews: 2149,
+    stock: 35,
+    badge: "Bestseller",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Accessories"
+  },
+  {
+    id: 330,
+    name: "Watch Strap",
+    price: 357.82,
+    category: "Photography",
+    subcategory: "Tripods",
+    description: "Stable support with quick?release design and travel?friendly size.",
+    rating: 4.1,
+    reviews: 986,
+    stock: 49,
+    badge: "Onsale",
+    image: "https://placehold.co/400x400/f3f4f6/1f2937?text=Tripods"
+  },
 ];
 
 

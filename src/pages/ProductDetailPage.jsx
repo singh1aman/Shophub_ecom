@@ -17,7 +17,7 @@ const ProductDetailPage = () => {
         <div className="mb-8 h-px w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
 
         <div className="grid gap-10 md:grid-cols-[1.1fr_1fr]">
-          <PdpGallery />
+          <PdpGallery id={id}/>
           <div className="flex flex-col gap-4">
             <PdpSummary />
             <PdpHighlights />

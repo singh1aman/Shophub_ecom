@@ -4,7 +4,6 @@ const Logo = () => {
   return (
     <div
       className="logo-wrapper cursor-pointer flex justify-center items-center gap-2"
-      style={{ marginLeft: "auto" }}
     >
       <div className="bg-black p-1 br-1 rounded-md w-8 h-8 flex items-center justify-center">
         <svg
@@ -24,7 +23,7 @@ const Logo = () => {
           ></path>
         </svg>
       </div>
-      <span class="font-semibold text-lg">ShopHub</span>
+      <span className="font-semibold text-lg flex"> <span>Shop</span> <span className="text-orange-500">Hub</span></span>
     </div>
   );
 };

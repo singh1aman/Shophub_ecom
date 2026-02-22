@@ -1,4 +1,6 @@
-import { Audio,Wearable,Photography,Gaming } from "@/data/data";
+import { Link } from "react-router-dom";
+import ProductCard2 from "../productCard/ProductCard2";
+
 const products = [
   {
     id: 1001,
@@ -63,39 +65,31 @@ const products = [
 
 
 ];
-const PdpGallery = ({id}) => {
-  const dataFile = [...Audio,...Gaming,...Photography,...Wearable]; 
-  console.log('id in gallery',id,dataFile);
-  const img = dataFile.find((product) => product.id === +id) ?  dataFile.find((product) => product.id === +id).image: products.find((product) => product.id === +id).image
-  console.log('img',img);
-  
 
-  
+const TrendingProducts = () => {
   return (
-    <div className="flex flex-col gap-4">
-      <div className="aspect-square w-full overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 shadow-sm transition-shadow duration-300 hover:shadow-md">
-        <img
-          src={img}
-          alt="Product"
-          className="h-full w-full"
-        />
-      </div>
-      {/* <div className="grid grid-cols-4 gap-3">
-        {[1, 2, 3, 4].map((i) => (
-          <div
-            key={i}
-            className="aspect-square overflow-hidden rounded-lg border border-gray-200 bg-gray-50 hover:border-black transition-colors duration-200 hover:shadow-sm"
+    <section className="bg-gray-50 py-14">
+      <div className="mx-auto max-w-6xl px-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-bold">Trending Products </h2>
+          <Link to={'/allPlp'}
+            className="text-sm font-semibold text-gray-600 hover:text-black"
           >
-            <img
-              src="https://placehold.co/200x200/f3f4f6/111827?text=Thumb"
-              alt="Thumbnail"
-              className="h-full w-full object-cover"
-            />
-          </div>
-        ))}
-      </div> */}
-    </div>
+            Explore →
+          </Link>
+        </div>
+
+        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+          {products.map((p) => (
+            <Link to={`/product/${p.id}`} key={p.id}>
+            <ProductCard2 p={p} key={p.id}/>
+            </Link>
+    
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default PdpGallery;
+export default TrendingProducts;

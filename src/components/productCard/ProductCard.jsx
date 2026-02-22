@@ -1,74 +1,81 @@
 import { Heart, Star } from "lucide-react";
 import { useCart } from "../../context/CartContext";
+import { useState } from "react";
 const ProductCard = ({ product, viewMode }) => {
   console.log("product", viewMode);
   const { addToCart } = useCart();
-
+  const [isAdded,setIsAdded] = useState(false);
   if (viewMode === "list") {
     return (
-      <div className="flex gap-4 p-4 border border-gray-200 rounded-lg hover:border-black hover:shadow-lg transition-all bg-white">
-        <div className="w-32 h-32 flex-shrink-0 bg-gray-50 rounded-lg overflow-hidden">
+      <div className="flex gap-3 rounded-xl border border-gray-200 bg-white p-3 transition-all hover:border-black hover:shadow-md sm:gap-4 sm:p-4">
+        <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-lg bg-gray-50 sm:h-28 sm:w-28">
           <img
             src={product.image}
             alt={product.name}
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="flex-1 flex flex-col justify-between">
-          <div>
-            <div className="flex items-start justify-between mb-2">
-              <div>
-                <span className="text-xs text-gray-500">
-                  {product.subcategory}
-                </span>
-                <h3 className="font-semibold text-lg">{product.name}</h3>
+        <div className="flex flex-1 flex-col justify-between">
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <div className="text-[11px] uppercase tracking-widest text-gray-400">
+                {product.subcategory}
               </div>
-              {product.badge && (
-                <span
-                  className={`px-2 py-1 text-xs font-semibold rounded ${
-                    product.badge === "New"
-                      ? "bg-blue-500 text-white"
-                      : product.badge === "Sale"
-                        ? "bg-red-500 text-white"
-                        : product.badge === "Hot"
-                          ? "bg-orange-500 text-white"
-                          : "bg-black text-white"
-                  }`}
-                >
-                  {product.badge}
+              <h3 className="mt-1 text-sm font-semibold text-gray-900 line-clamp-2 sm:text-base">
+                {product.name}
+              </h3>
+              <div className="mt-2 flex items-center gap-2 text-xs text-gray-500">
+                <span className="inline-flex items-center gap-1">
+                  <Star className="h-3 w-3 fill-yellow-400 text-yellow-400" />
+                  {product.rating}
                 </span>
-              )}
-            </div>
-            <p className="text-sm text-gray-600 mb-2">{product.description}</p>
-            <div className="flex items-center gap-2 mb-2">
-              <div className="flex items-center">
-                <Star className="h-3 w-3 fill-yellow-400 text-yellow-400" />
-                <span className="text-sm ml-1">{product.rating}</span>
+                <span className="text-gray-300">•</span>
+                <span>{product.reviews} reviews</span>
               </div>
-              <span className="text-xs text-gray-400">
-                ({product.reviews} reviews)
-              </span>
-              <span className="text-xs text-gray-500">
-                {product.stock} in stock
-              </span>
             </div>
-          </div>
-          <div className="flex items-center justify-between">
-            <span className="text-2xl font-bold">${product.price}</span>
-            <div className="flex gap-2">
-              <button className="p-2 border border-gray-200 rounded-md hover:bg-gray-50">
-                <Heart className="h-4 w-4" />
-              </button>
-              <button className="px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"
-                 onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              addToCart(product);
-            }}
+            {product.badge && (
+              <span
+                className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-widest ${
+                  product.badge === "New"
+                    ? "bg-blue-500 text-white"
+                    : product.badge === "Sale"
+                      ? "bg-red-500 text-white"
+                      : product.badge === "Hot"
+                        ? "bg-orange-500 text-white"
+                        : "bg-black text-white"
+                }`}
               >
-                Add to Cart
-              </button>
-            </div>
+                {product.badge}
+              </span>
+            )}
+          </div>
+          <div className="mt-3 flex items-center justify-between">
+            <span className="text-base font-semibold text-gray-900 sm:text-lg">
+              ${product.price}
+            </span>
+            <button
+            className={`
+                  px-4 py-2
+                  text-white text-sm
+                  rounded-md
+                  transition-all duration-200
+                  ${
+                    isAdded
+                      ? "bg-emerald-500 hover:bg-emerald-600 hover:shadow-md"
+                      : "bg-black hover:bg-gray-800"
+                  }
+                `}
+                disabled={isAdded}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                 setIsAdded((prev) => !prev)
+              setTimeout(() =>{setIsAdded((prev) => !prev)},1500)
+                addToCart(product);
+              }}
+            >
+             {!isAdded ? <span>Add to Cart</span> : <span>Added ✓</span>} 
+            </button>
           </div>
         </div>
       </div>
@@ -116,14 +123,29 @@ const ProductCard = ({ product, viewMode }) => {
         <div className="flex items-center justify-between">
           <span className="text-xl font-bold">${product.price}</span>
           <button
-            className="px-4 py-2 bg-black text-white text-sm rounded-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-gray-800"
+           className={`
+                  px-4 py-2
+                  text-white text-sm
+                  rounded-md
+                  transition-all duration-200
+                  ${
+                    isAdded
+                      ? "bg-emerald-500 hover:bg-emerald-600 hover:shadow-md"
+                      : "bg-black hover:bg-gray-800"
+                  }
+                `}
+
+            disabled = {isAdded}
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
+              setIsAdded((prev) => !prev)
+              setTimeout(() =>{setIsAdded((prev) => !prev)},1500)
               addToCart(product);
+
             }}
           >
-            Add to Cart
+           {!isAdded ? <span>Add to Cart</span> : <span>Added ✓</span>} 
           </button>
         </div>
       </div>

@@ -1,66 +1,83 @@
 import { Link } from "react-router-dom";
 
-const categoryTileArray = [
+const categories = [
+  { name: "Audio", count: "250+ products", icon: "🎧", path: "/audioplp" },
   {
-    id: 1,
-    name: "Audio",
-    icon: "🎧",
-    count: "250+ products",
-    path: "/audioplp",
-  },
-  {
-    id: 2,
     name: "Wearables",
-    icon: "⌚",
     count: "180+ products",
-    path: "wearableplp",
+    icon: "⌚",
+    path: "/wearableplp",
   },
+  { name: "Gaming", count: "320+ products", icon: "🎮", path: "/gamingplp" },
   {
-    id: 3,
-    name: "Gaming",
-    icon: "🎮",
-    count: "320+ products",
-    path: "gamingplp",
-  },
-  {
-    id: 4,
     name: "Photography",
-    icon: "📷",
     count: "150+ products",
-    path: "photographyplp",
+    icon: "📷",
+    path: "/photographyplp",
   },
 ];
-const CategoryTile = ({ icon, name, count, path }) => {
-  return (
-    <Link
-      to={path}
-      className="category-tile  p-6 flex-wrap border border-gray-200 rounded-lg hover:border hover:border-gray-300 cursor-pointer hover:-translate-y-1
-  hover:shadow-lg
-  transition-all duration-200 ease-out"
-      style={{ width: "49%" }}
-    >
-      <div>
-        <div className="image-container">{icon}</div>
-        <p className="category-name">{name}</p>
-        <p className="category-description">{count}</p>
-      </div>
-    </Link>
-  );
-};
 
 const ShopByCategory = () => {
   return (
-    <div className="shopbycategory-wrapper mt-20">
-      <div className="top-layer flex items-center justify-between pl-2 pr-2 mb-10">
-        <h1 className="text-2xl font-bold">Shop by Category</h1>
-        <p>View All</p>
+    <section className="py-14">
+      <div className="mx-auto max-w-6xl px-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-bold">Shop by Category</h2>
+          <Link to={'/allPlp'}
+            className="text-sm font-semibold text-gray-600 hover:text-black"
+          >
+            View All →
+          </Link>
+        </div>
+
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+          {categories.map((cat) => (
+            <Link to={cat.path} key={cat.name}>
+              <div
+                key={cat.name}
+                className="
+                            group relative flex items-center justify-between 
+                            overflow-hidden rounded-2xl border bg-white p-6 
+                            shadow-sm transition-all duration-300 ease-out
+                            hover:-translate-y-2 hover:shadow-xl hover:border-orange-200
+                          "
+              >
+                {/* Gradient Hover Background */}
+                <div
+                  className="
+                              absolute inset-0 opacity-0 transition-opacity duration-300
+                              bg-gradient-to-r from-orange-50 via-white to-orange-100
+                              group-hover:opacity-100
+                            "
+                />
+
+                {/* Content */}
+                <div className="relative z-10">
+                  <p className="text-lg font-bold transition-colors duration-300 group-hover:text-orange-600">
+                    {cat.name}
+                  </p>
+                  <p className="mt-1 text-sm text-gray-500">{cat.count}</p>
+                </div>
+
+                {/* Icon */}
+                <div className="relative z-10 text-4xl transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+                  {cat.icon}
+                </div>
+
+                {/* Glow Border Effect */}
+                <div
+                  className="
+                          absolute -bottom-10 -right-10 h-32 w-32 rounded-full 
+                          bg-orange-200 opacity-0 blur-3xl transition-opacity duration-300
+                          group-hover:opacity-50
+                        "
+                />
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
-      <div className="bottom-layer gap-4 flex flex-wrap item-center justify-center">
-        {categoryTileArray.map((tile) => (
-          <CategoryTile key={tile.id} {...tile} />
-        ))}
-      </div>
-    </div>
+    </section>
   );
 };
 export default ShopByCategory;

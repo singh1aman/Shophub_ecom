@@ -45,7 +45,7 @@ import { Trash2,Minus,Plus,IndianRupee } from "lucide-react";
             </div>
             <div className="text-right">
               <div className="text-xl font-bold flex items-center justify-center">
-                <IndianRupee />{item.price * item.qty}
+                ${(item.price * item.qty).toFixed(2)}
               </div>
             </div>
           </div>

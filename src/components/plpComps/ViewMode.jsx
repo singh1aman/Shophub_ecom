@@ -1,9 +1,20 @@
-import { LayoutGrid,Rows2  } from 'lucide-react';
+import { LayoutGrid,Rows2, SlidersHorizontal  } from 'lucide-react';
 
-const ViewMode = ({viewMode,setViewMode}) => {
+const ViewMode = ({viewMode,setViewMode,setShowFilterPannel,resultCount}) => {
     return(
-       <div className="view-mode flex items-center justify-end mb-6">
-        <div className="flex items-center gap-1 border border-gray-200 rounded-lg p-1 bg-white shadow-sm">
+       <div className="view-mode flex items-center justify-between mb-6 md:justify-center">
+             <button type="button"
+              className='filterpanel md:hidden inline-flex items-center gap-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm'
+              onClick={() => setShowFilterPannel(prev => !prev)}
+             >
+              Filters
+              <SlidersHorizontal />
+             </button>
+             <span className="text-xs text-gray-500 md:text-sm ml-auto">
+                       Showing {resultCount} products
+               </span>
+
+        <div className="flex items-center gap-1 border border-gray-200 rounded-lg p-1 bg-white shadow-sm ml-auto">
           
           <button
             className={`p-2 rounded-md transition-all duration-200 ${

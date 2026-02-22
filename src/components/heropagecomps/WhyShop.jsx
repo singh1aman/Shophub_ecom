@@ -1,46 +1,46 @@
 import { ShieldCheck, Sparkles, Truck } from "lucide-react";
 
 const WhyShop = () => {
-  const items = [
-    {
-      title: "Free Shipping",
-      desc: "Fast, insured delivery on all orders over $99.",
-      Icon: Truck,
-    },
-    {
-      title: "Premium Warranty",
-      desc: "12‑month coverage with easy replacements.",
-      Icon: Sparkles,
-    },
-    {
-      title: "Secure Checkout",
-      desc: "Encrypted payments and trusted providers.",
-      Icon: ShieldCheck,
-    },
-  ];
-
   return (
-    <section className="mx-auto max-w-6xl px-6 py-12">
-      <div className="mb-6 text-xs uppercase tracking-widest text-gray-500">
-        Why Shop With Us
-      </div>
-      <div className="grid gap-4 md:grid-cols-3">
-        {items.map((item) => (
-          <div
-            key={item.title}
-            className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-black hover:shadow-md"
-          >
-            <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 bg-gray-50 text-gray-900">
-                <item.Icon size={20} />
-              </span>
-              <div className="text-sm font-semibold text-gray-900">
-                {item.title}
-              </div>
+    <section className="py-14">
+      <div className="mx-auto max-w-6xl px-4 text-center">
+        <p className="text-sm font-semibold uppercase tracking-widest text-gray-400">
+          Why Shop With Us
+        </p>
+
+        <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-4">
+          {[
+            {
+              title: "Free Shipping",
+              desc: "Fast delivery on all orders above $99.",
+              icon: "🚚",
+            },
+            {
+              title: "Premium Warranty",
+              desc: "12-month easy replacement warranty.",
+              icon: "🛡️",
+            },
+            {
+              title: "Secure Checkout",
+              desc: "Encrypted payments & trusted providers.",
+              icon: "🔒",
+            },
+            {
+              title: "Easy Returns",
+              desc: "Hassle-free 7 day returns policy.",
+              icon: "↩️",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border bg-white p-6 text-left shadow-sm"
+            >
+              <div className="text-3xl">{item.icon}</div>
+              <p className="mt-4 font-bold">{item.title}</p>
+              <p className="mt-2 text-sm text-gray-600">{item.desc}</p>
             </div>
-            <div className="mt-2 text-sm text-gray-600">{item.desc}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

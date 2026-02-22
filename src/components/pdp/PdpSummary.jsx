@@ -6,14 +6,83 @@ import { useCart } from "../../context/CartContext";
 import { useState } from "react";
 import PdpShippingInfo from "./PdpShippingInfo";
 
+const products = [
+  {
+    id: 1001,
+    qty: 1,
+    name: "Noise Cancelling Headphones",
+    price: 129,
+    category: "Audio",
+    subcategory: "Headphones",
+    description: "Premium over-ear headphones with deep bass and ANC.",
+    rating: 4.8,
+    reviews: 318,
+    stock: 24,
+    badge: "Hot",
+    image:
+      "https://images.unsplash.com/photo-1580894908361-967195033215?q=80&w=900&auto=format&fit=crop",
+  },
+  {
+    id: 1002,
+    qty: 1,
+    name: "Smart Watch Pro",
+    price: 199,
+    category: "Wearable",
+    subcategory: "Watches",
+    description: "Advanced fitness tracking with premium build and GPS.",
+    rating: 4.7,
+    reviews: 256,
+    stock: 19,
+    badge: "New",
+    image:
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=900&auto=format&fit=crop",
+  },
+  {
+    id: 1003,
+    qty: 1,
+    name: "DSLR Camera Kit",
+    price: 799,
+    category: "Photography",
+    subcategory: "Cameras",
+    description: "High‑resolution DSLR kit with versatile lens options.",
+    rating: 4.9,
+    reviews: 142,
+    stock: 8,
+    badge: "Bestseller",
+    image:
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
 
+   id: 1004,
+    qty: 1,
+    name: "VisionLite Smart Glasses",
+    price: 249.99,
+    category: "Wearable",
+    subcategory: "Accessories",
+    description: "Open-ear smart glasses with touch controls and voice assistant.",
+    rating: 4.3,
+    reviews: 214,
+    stock: 18,
+    badge: "New",
+    image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=900&auto=format&fit=crop"
+  },
+
+
+];
 const PdpSummary = () => {
   const { id } = useParams();
   const { addToCart } = useCart();
   const [itemAddedToCart,setItemAddedToCart] = useState(null)
 
   const productsData = [...Audio, ...Gaming, ...Wearable, ...Photography];
-  const pdpProduct = productsData?.find((product) => product.id === +id);
+  let pdpProduct = productsData?.find((product) => product.id === +id) 
+  if(!pdpProduct){
+    pdpProduct =  products?.find((product) => product.id === +id)
+  console.log('pdpProduct if',pdpProduct);
+
+  }
+  // ?  productsData?.find((product) => product.id === +id) :  products?.find((product) => product.id === +id)
   console.log('pdpProduct',pdpProduct);
   
 

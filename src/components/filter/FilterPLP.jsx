@@ -1,32 +1,48 @@
+import {
+  categoriesByType,
+  prices,
+  priceLabels,
+  ratings,
+  ratingLabels,
+  specialFilters,
+} from "./FilterConstants";
 
-import { 
-     categoriesByType,
-     prices,
-     priceLabels,
-     ratings,
-     ratingLabels,
-     specialFilters
- } from './FilterConstants'
-
-import { 
-    toggleCategory,
-    togglePrice,
-    toggleRating,
-    toggleSpecialFilter,
-    buildActiveFiltersData,
-    formatActiveFilterValue,
-    handleActiveFilterClick,
-    handleClearAllClick
-} from './FilterHelpers'
+import {
+  toggleCategory,
+  togglePrice,
+  toggleRating,
+  toggleSpecialFilter,
+  buildActiveFiltersData,
+  formatActiveFilterValue,
+  handleActiveFilterClick,
+  handleClearAllClick,
+} from "./FilterHelpers";
 
 import FilterChips from "./FilterChips";
 import ActiveFilters from "./ActiveFilters";
 
-
-
 // Main filter component
-const FilterPLP = ({ productCategory, activeFilter, setActiveFilter }) => {
-  const categories = categoriesByType[productCategory] || [];
+const allCategories =  [
+          ...categoriesByType.Audio,
+          ...categoriesByType.Gaming,
+          ...categoriesByType.Wearable,
+          ...categoriesByType.Photography,
+        ]
+const FilterPLP = ({ productCategory, activeFilter, setActiveFilter,setShowFilterPannel }) => {
+  const categories =
+    productCategory === "all"
+      ? [...new Set(allCategories)]
+      : categoriesByType[productCategory] || [];
+  console.log(
+    "categoriesByType",
+    [
+      ...categoriesByType.Audio,
+      ...categoriesByType.Gaming,
+      ...categoriesByType.Wearable,
+      ...categoriesByType.Photography,
+    ],
+    productCategory,
+  );
 
   const isAnyFilterSelected =
     activeFilter.category.length > 0 ||
@@ -68,7 +84,7 @@ const FilterPLP = ({ productCategory, activeFilter, setActiveFilter }) => {
   ];
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 mb-6">
+    <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 mb-6  h-fit sticky top-0 max-md:h-[100%]">
       <div className="filter-chips-container space-y-4">
         {filterSections.map((filterSection) => (
           <FilterChips
@@ -83,14 +99,21 @@ const FilterPLP = ({ productCategory, activeFilter, setActiveFilter }) => {
       </div>
 
       {isAnyFilterSelected && (
-       <ActiveFilters
-         activeFiltersData={activeFiltersData}
-         handleActiveFilterClick={handleActiveFilterClick}
-         handleClearAllClick={handleClearAllClick}
-         formatActiveFilterValue={formatActiveFilterValue}
-         setActiveFilter={setActiveFilter}
-        /> 
+        <ActiveFilters
+          activeFiltersData={activeFiltersData}
+          handleActiveFilterClick={handleActiveFilterClick}
+          handleClearAllClick={handleClearAllClick}
+          formatActiveFilterValue={formatActiveFilterValue}
+          setActiveFilter={setActiveFilter}
+        />
       )}
+
+      <button
+        className="show-results-cta mt-5 block w-full rounded-xl bg-black px-4 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-gray-900 active:scale-[0.98] md:hidden"
+        onClick={() => setShowFilterPannel((prev) => !prev)}
+      >
+        Show Results
+      </button>
     </div>
   );
 };

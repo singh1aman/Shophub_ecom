@@ -36,16 +36,17 @@ export default function HeroBanner() {
           className="relative z-20 mx-auto mb-4 max-w-5xl text-center text-4xl font-semibold tracking-tight text-gray-800 md:text-7xl"
         >
           <h2 className="inline-block bg-gradient-to-b from-gray-600 to-black bg-clip-text text-transparent">
-            I Love
+            Premium Tech
             <span className="bg-gradient-to-b from-orange-300 to-orange-600 bg-clip-text text-transparent">
-              YOU{" "}
+              {" "}
+              Delivered
             </span>
           </h2>
 
           <h2 className="mt-2 inline-block bg-gradient-to-b from-gray-600 to-black bg-clip-text text-transparent">
-            HARSHU{" "}
+            Faster{" "}
             <span className="bg-gradient-to-b from-orange-300 to-orange-600 bg-clip-text text-transparent">
-              PUTT
+              Than Ever
             </span>
           </h2>
         </motion.div>
